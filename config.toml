@@ -7,7 +7,8 @@ build_search_index = false
 generate_feeds = false
 
 [markdown]
-highlight_code = false
+# Zola 0.23 removed the former `highlight_code` setting. Syntax highlighting
+# remains disabled by default, so no replacement option is needed here.
 
 [extra]
 operator_name = "Zack Lewis"
