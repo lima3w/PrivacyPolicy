@@ -1,0 +1,15 @@
+base_url = "https://lima3.dev/privacy"
+title = "Lima3 Privacy Policy"
+description = "Privacy policy and app-specific addenda for Lima3 apps."
+
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+highlight_code = false
+
+[extra]
+operator_name = "Zack Lewis"
+contact_email = "privacy@lima3.dev"
+policy_version = "1.0.0"

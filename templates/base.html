@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ get_url(path="") }}">Lima3 Privacy</a>
+      <nav>
+        <a href="{{ get_url(path="") }}">Overview</a>
+        {% set index = get_section(path="_index.md") %}
+        {% for p in index.pages %}
+        <a href="{{ p.permalink }}">{{ p.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock content %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Lima3 Privacy Policy — version {{ config.extra.policy_version }}. Not legal advice.</p>
+      <p>Questions or requests: <a href="mailto:{{ config.extra.contact_email }}">{{ config.extra.contact_email }}</a></p>
+    </div>
+  </footer>
+</body>
+</html>
