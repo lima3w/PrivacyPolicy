@@ -1,6 +1,6 @@
 # Lima3 Privacy Policy
 
-Source for the Lima3 privacy policy site, built with [Zola](https://www.getzola.org/) and published at [lima3.dev/privacy](https://lima3.dev/privacy).
+Source for the Lima3 privacy policy site, built with [Zola](https://www.getzola.org/) and published at [privacy.lima3.dev](https://privacy.lima3.dev).
 
 This is a publishing and documentation project, not legal advice. Every claim in the policy must be verified against the actual behavior of the relevant app's code, manifest, and dependencies before it's published — see `maintainers/publishing.md`.
 
@@ -33,7 +33,7 @@ zola serve
 
 Serves the site locally with live reload. `zola build` produces the static site in `public/`.
 
-Because `base_url` in `config.toml` is `https://lima3.dev/privacy`, the built `public/` output is meant to be deployed so it's reachable at that path (the rest of lima3.dev is handled outside this repository).
+Because `base_url` in `config.toml` is `https://privacy.lima3.dev`, the built `public/` output is deployed at that dedicated hostname. This keeps it independent from the Worker serving the rest of `lima3.dev`.
 
 ## Publishing a new app addendum
 
