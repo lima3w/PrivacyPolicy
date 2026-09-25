@@ -4,7 +4,7 @@
 2. Policy maintainer updates the app addendum (`content/<app>.md`, based on `app-addendum-template.md`) and `CHANGELOG.md`.
 3. Review claims against the actual source, manifest, dependencies, and release configuration for that app. Do not publish a claim that hasn't been verified this way.
 4. Merge via GitHub PR.
-5. Deploy the approved revision to lima3.dev/privacy.
+5. Deploy the approved revision to privacy.lima3.dev.
 6. Pin app release notes and store listings to the public app-specific policy URL.
 7. Keep a visible "Last updated" date and policy version on every rendered page (handled automatically by the site templates from each page's front matter and `config.extra.policy_version`).
 

@@ -57,7 +57,7 @@ Lima3 apps are intended for a general audience and are not directed at children 
 
 ## Changes to this policy
 
-We may update this policy or an app's addendum as our apps change. Material changes will update the "Last updated" date and version number on the relevant page(s), and we'll log the change in this repository's changelog. We publish only reviewed, tagged revisions to lima3.dev/privacy — not unreviewed drafts.
+We may update this policy or an app's addendum as our apps change. Material changes will update the "Last updated" date and version number on the relevant page(s), and we'll log the change in this repository's changelog. We publish only reviewed, tagged revisions to privacy.lima3.dev — not unreviewed drafts.
 
 ## Effective date and version
 

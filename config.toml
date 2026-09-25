@@ -1,4 +1,4 @@
-base_url = "https://lima3.dev/privacy"
+base_url = "https://privacy.lima3.dev"
 title = "Lima3 Privacy Policy"
 description = "Privacy policy and app-specific addenda for Lima3 apps."
 
@@ -7,7 +7,8 @@ build_search_index = false
 generate_feeds = false
 
 [markdown]
-highlight_code = false
+# Zola 0.23 removed the former `highlight_code` setting. Syntax highlighting
+# remains disabled by default, so no replacement option is needed here.
 
 [extra]
 operator_name = "Zack Lewis"
