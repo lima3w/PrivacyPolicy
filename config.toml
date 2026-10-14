@@ -13,4 +13,4 @@ generate_feeds = false
 [extra]
 operator_name = "Zack Lewis"
 contact_email = "privacy@lima3.dev"
-policy_version = "1.0.0"
+policy_version = "1.1.0"
