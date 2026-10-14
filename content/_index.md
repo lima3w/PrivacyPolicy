@@ -4,7 +4,7 @@ template = "index.html"
 sort_by = "date"
 
 [extra]
-date = 2026-09-24
+date = 2026-10-13
 +++
 
 This is the shared privacy baseline for apps published by Lima3. It describes how we handle data across all of our apps. Each app also has its own **app-specific addendum**, linked below, that describes exactly what that app collects and how it behaves. Where the two differ, the app-specific addendum controls for that app.
